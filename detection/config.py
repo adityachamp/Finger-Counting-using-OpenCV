@@ -2,7 +2,7 @@ import os
 import sys
 import json
 
-# data path to config.json
+# data path to root directory to get to config.json
 root_dir = os.path.dirname(sys.modules['__main__'].__file__)
 # the config file can be used in two ways which changes the data_path
 # if called from detection when it's been run to test, the folder has a __main__

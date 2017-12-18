@@ -128,9 +128,3 @@ def getCount(size):
     capture.release()
     cv2.destroyAllWindows()
     return np.bincount(countArray).argmax()
-
-# just to test, if you uncomment this, app won't run the rumps module since
-# this is supposed to be treated as a package
-# while(True):
-#     res = getCount(5)
-#     print(res)
